@@ -5,7 +5,7 @@
 rm(list=ls())
 
 ### Data
-cases <- read.csv("data/case_data.csv")
+cases <- read.csv("case_data.csv")
 
 ### Sim function - add stochasticity, incursions, vaccination, and seasonality
 simTSI_all = function(pop, params, times) {
